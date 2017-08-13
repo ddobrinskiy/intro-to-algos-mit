@@ -1,0 +1,255 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN">
+<html>
+
+<!-- Mirrored from courses.csail.mit.edu/6.006/spring11/info.shtml by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 13 Aug 2017 12:58:21 GMT -->
+<head>
+<title>6.006: Introduction to Algorithms - Massachusetts Institute of Technology</title>
+<link rel="stylesheet" href="style.css" type="text/css"/>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-9357960-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</head>
+<body>
+
+<div id="leftpanel">
+<img src="csaillogosmall.gif" alt="CSAIL Logo"/> <br />
+
+<br />
+<a class="homenav" href="index.html">Announcements</a><br /><br />
+<a class="homenav" href="staff.html">Course staff</a><br /><br />
+<a class="homenav" href="info.html">Course information</a><br /><br />
+<a class="homenav" href="http://piazzza.com/">Piazzza</a><br /><br />
+<a class="homenav" href="calendar.html">Calendar</a><br /><br />
+<a class="homenav" href="notes.html">Lectures and recitations</a><br /><br />
+<a class="homenav" href="psets.html">Problem sets</a><br /><br />
+<a class="homenav" href="https://6.006.scripts.mit.edu/grading/">Problem set submission</a><br /><br />
+<a class="homenav" href="quizzes.html">Quizzes</a><br /><br />
+<a class="homenav" href="https://courses.csail.mit.edu/6.006/oldquizzes/">Past Quizzes</a><br /><br />
+<a class="homenav" href="resources.html">Resources</a><br /><br />
+<a class="homenav" href="http://courses.csail.mit.edu/6.006/">Previous terms</a><br /><br />
+
+<a href="http://mit.edu/"><img border="0" src="mit-logo.gif" alt = "MIT Logo"/></a>
+
+</div>
+
+
+<div id="centerpanelfull">
+<h2>6.006: Introduction to Algorithms</h2>
+
+<div class="header">Meeting locations and times</div>
+<p>
+Lectures will be held on <strong>Tuesdays and Thursdays</strong> from
+<strong>11:00 AM to 12:00 PM</strong> in <strong><a
+href="http://whereis.mit.edu/map-jpg?selection=32&amp;Buildings=go">32-123</a></strong>.
+You are responsible for material presented in lectures, including oral
+comments made by the lecturer (or other information that may not be
+present in the slides), as well as in recitations:
+</p>
+
+<ul class="stafflist">
+<li><span class="staffname">WF10</span> &ndash; Nicholas Zehender &ndash; 36-153</li>
+<li><span class="staffname">WF11</span> &ndash; Nicholas Zehender &ndash; 36-153</li>
+<li><span class="staffname">WF12</span> &ndash; Tianren Qi &ndash; 36-156</li>
+<li><span class="staffname">WF1</span> &ndash; David Wen &ndash; 26-142</li>
+<li><span class="staffname">WF2</span> &ndash; Joseph Laurendi &ndash; 36-156</li>
+<li><span class="staffname">WF3a</span> &ndash; Joseph Laurendi &ndash; 36-156</li>
+<li><span class="staffname">WF3b</span> &ndash; Michael Kuo &ndash; 36-153</li>
+</ul>
+
+<div class="header">Prerequisites and credit</div>
+
+<p>A firm grasp of Python and a solid background in discrete
+mathematics are necessary prerequisites to this course.  You are
+expected to have mastered the material presented in 6.01
+(<em>Introduction to EECS I</em>) and 6.042J/18.062J (<em>Mathematics
+for Computer Science</em>).</p>
+
+<p>If you have not taken and been successful in each of these
+subjects, please speak with a TA or professor before enrolling.  We do
+allow students who have equivalent, other experience with the material
+described above to enroll, but with the firm understanding that
+mastery of this material is assumed and that course staff will not
+feel obligated to cover it or to help students who are struggling with
+it.</p>
+
+<p>6.006 is a 12-unit (4-0-8) subject and serves as a Foundational
+Computer Science subject under the new curriculum.  It is a direct
+prerequisite for 6.046 (<em>Design and Analysis of Algorithms</em>),
+the theory header.
+
+<div class="header">Recitations</div>
+
+<p>One-hour recitations are held on Wednesdays and Fridays.  You are
+responsible for the material presented in recitation, <strong>which
+may include new material not presented in lectures</strong>.
+Recitation attendance has been well-correlated with quiz performance
+in past semesters.  Recitations also give you a more intimate
+opportunity to ask questions of and to interact with the course staff.
+Your recitation instructor is responsible for determining your final
+grade.</p>
+
+<p>We do <strong>not</strong> use the recitation assignments made by
+the scheduling office.  We will communicate your assignment to you
+before the first recitation meeting.</p>
+
+<div class="header">Problem sets</div> <p>We will assign seven <a
+href="psets.html">problem sets</a> during the course of the semester.
+For dates, check the <a href="calendar.html">course calendar</a>.
+Each problem set will consist of a programming assignment, to be
+completed in Python, and a theory assignment, to be typeset in LaTeX
+and compiled to PDF.  (We will, however, accept scanned, hand-drawn
+diagrams turned in with your PDF.)</p>
+
+<p>If you collaborate with others in any fashion, you must list their
+names as collaborators.  For details, please see the section on our
+collaboration policy; we take this very seriously.</p>
+
+<p>Late assignments will be severely penalized.  (This penalty is
+currently a 1% deducation every six minutes or part thereof until the
+end of the tenth hour after the deadline, after which submissions will
+receive no credit.)  To avoid penalties, contact us <strong>in
+advance</strong> to make arrangements.  Otherwise, we will require a
+note from the appropriate dean advising us of your situation.</p>
+
+<!--
+<p>The problem sets include exercises that should be solved but not
+handed in. These questions are intended to help you master the course
+material and will be useful in solving the assigmed problems. Material
+covered in exercises will be tested on exams.</p>
+-->
+
+<div class="header">Quizzes</div> <p>We will give two evening quizzes
+during the semester; these will each be two hours in duration.  Check
+the <a href="calendar.html">course calendar</a> for dates.  Each will
+begin at 7:30 PM; room assignments will be announced in advance.
+There will also be a final exam during finals week.</p>
+
+<div class="header">Grading policy</div> <p>Your final grade will be
+determined by the grades you recieve on problem sets, on quizzes, and
+on the final.  The problem sets will together be worth approximately
+30% of your grade; the quizzes, 20% each; and the final, 30%.  The
+particulars of this policy are subject to the discretion of the course
+staff.</p>
+
+<div class="header">How we grade coding assignments</div>
+
+<p>The code that you hand in will be graded based on its correctness,
+its quality, and the details of the algorithm that it
+implements.</p>
+
+<p><strong>Correctness</strong> &mdash; We will provide a set of
+public unit tests with each problem to help you test your work.
+However, we will often use additional unit tests in grading; we
+reserve the right to test any behavior specified by or following from
+the problem statement.  Submissions that run for excessive amounts of
+time may be scored as incorrect.</p>
+
+<p><strong>Quality</strong> &mdash; Code should follow Python
+conventions.  It should be neat, contain an appropriate quantity of
+helpful comments, use appropriate variable names, and so forth.  Other
+implementation characteristics that affect readability,
+maintainability, or organization may also be graded.</p>
+
+<p><strong>Theory</strong> &mdash; Code should represent an
+implementation of an appropriately designed algorithm.  While we do
+not necessarily expect you to achieve any lower bounds that may exist
+for a particular problem, submissions should not be overly inefficient
+in either time or space.</p>
+
+<div class="header">How we grade written assignments</div>
+
+<p>Responses to theory assignments <strong>must be typeset using LaTeX
+and then compiled to PDF</strong>.  If you need to learn how to do
+this, check the <a href="resources.html">resources section</a> or
+your favorite search engine.  Templates for student solutions are
+provided along with each problem set.. (We will, however, accept
+scanned, hand-drawn diagrams turned in with your PDF.)</p>
+
+<p>The best responses will be <strong>concise, correct, and
+complete</strong>.  Failing to answer part of the question, being
+overly verbose, missing special or edge cases, and answering
+mistakenly will each reduce your score.</p>
+
+<p>When you are called upon to "give an algorithm," you must provide
+(1) a textual description of the algorithm, and, if helpful,
+pseudocode; (2) at least one worked example or diagram to illustrate
+how your algorithm works; (3) a proof (or other indication) of the
+correctness of the algorithm; and (4) an analysis of the time
+complexity (and, if relevant, the space complexity) of the
+algorithm.</p>
+
+<p><strong>Remember that, above all else, your goal is to
+communicate.</strong> After all, if a grader cannot understand your
+solution, they cannot give you any credit for it.</p>
+
+<div class="header">Collaboration policy</div>
+
+<p>The goal of homework is to give you practice in mastering the
+course material. Consequently, you are encouraged to collaborate on
+problem sets. In fact, students who form study groups generally do
+better on exams than do students who work alone. If you do work in a
+study group, however, you owe it to yourself and your group to be
+prepared for your study group meeting. Specifically, you should spend
+at least 30-45 minutes trying to solve each problem beforehand. If
+your group is unable to solve a problem, try asking questions via <a
+href="http://piazzza.com/">Piazzza</a> so that other groups and the
+course staff can be helpful.</p>
+
+<p><strong>You must write up each problem solution by yourself without
+assistance</strong>, even if you collaborate with others to solve the
+problem. You are asked on problem sets to identify your
+collaborators. If you did not work with anyone, you should write
+"Collaborators: none."  If you obtain a solution through research
+(e.g., on the web), acknowledge your source, but write up the solution
+in your own words. <strong>It is a violation of this policy to submit
+a problem solution that you cannot orally explain to a member of the
+course staff.</strong></p>
+
+<p><strong>Code you submit must also be written by yourself.</strong>
+You may receive help from your classmates during deugging.  Don't
+spend hours trying to debug a problem in your code before asking for
+help. However, regardless of who is helping you, only you are allowed
+to make changes to your code.  <strong>Both manual and automatic
+mechanisms will be employed to detect plagiarism in code.</strong>
+
+<p>No other 6.006 student may use your solutions; this includes your
+writing, code, tests, docu- mentation, etc. <strong>It is a violation
+of the 6.006 collaboration policy to permit anyone other than 6.006
+staff and yourself to see your solutions to either theory or code
+questions.</strong></p>
+
+<p>Plagiarism and other anti-intellectual behavior cannot be tolerated
+in any academic environment that prides itself on individual
+accomplishment. If you have any questions about the collaboration
+policy, or if you feel that you may have violated the policy, please
+talk to one of the course staff. Although the course staff is
+obligated to deal with cheating appropriately, we often have the
+ability to be more understanding and lenient if we find out from the
+transgressor himself or herself rather than from a third party.</p>
+
+<div class="header">Textbooks</div>
+
+<p>The required textbook for the course is <em>Introduction to
+Algorithms</em> (3rd Ed.) by Cormen, Leiserson, Rivest, and Stein (<a
+href="http://www.amazon.com/Introduction-Algorithms-Third-Thomas-Cormen/dp/0262033844">Amazon</a>).
+It is available wherever fine academic texts are sold.</p> <p>For the
+student who finds books helpful, we also suggest <em>Problem Solving
+With Algorithms and Data Structures Using Python</em> by Miller and
+Ranum (<a
+href="http://www.amazon.com/Problem-Solving-Algorithms-Structures-Python/dp/1590280539">Amazon</a>).</p>
+
+</div> <!-- End Center Content Panel -->
+</body>
+
+<!-- Mirrored from courses.csail.mit.edu/6.006/spring11/info.shtml by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 13 Aug 2017 12:58:21 GMT -->
+</html>
+
+

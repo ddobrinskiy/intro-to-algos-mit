@@ -1,0 +1,272 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN">
+<html>
+
+<!-- Mirrored from courses.csail.mit.edu/6.006/spring11/notes.shtml by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 13 Aug 2017 12:57:07 GMT -->
+<head>
+<title>6.006: Introduction to Algorithms - Massachusetts Institute of Technology</title>
+<link rel="stylesheet" href="style.css" type="text/css"/>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-9357960-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</head>
+<body>
+
+<div id="leftpanel">
+<img src="csaillogosmall.gif" alt="CSAIL Logo"/> <br />
+
+<br />
+<a class="homenav" href="index.html">Announcements</a><br /><br />
+<a class="homenav" href="staff.html">Course staff</a><br /><br />
+<a class="homenav" href="info.html">Course information</a><br /><br />
+<a class="homenav" href="http://piazzza.com/">Piazzza</a><br /><br />
+<a class="homenav" href="calendar.html">Calendar</a><br /><br />
+<a class="homenav" href="notes.html">Lectures and recitations</a><br /><br />
+<a class="homenav" href="psets.html">Problem sets</a><br /><br />
+<a class="homenav" href="https://6.006.scripts.mit.edu/grading/">Problem set submission</a><br /><br />
+<a class="homenav" href="quizzes.html">Quizzes</a><br /><br />
+<a class="homenav" href="https://courses.csail.mit.edu/6.006/oldquizzes/">Past Quizzes</a><br /><br />
+<a class="homenav" href="resources.html">Resources</a><br /><br />
+<a class="homenav" href="http://courses.csail.mit.edu/6.006/">Previous terms</a><br /><br />
+
+<a href="http://mit.edu/"><img border="0" src="mit-logo.gif" alt = "MIT Logo"/></a>
+
+</div>
+
+
+<div id="centerpanelfull">
+<h2>6.006: Introduction to Algorithms</h2>
+
+<div class="header">Unit 1: Introduction</div>
+
+<ul class="stafflist">
+  <li>
+    <span class="staffname">Lecture 1</span> &ndash; Introduction &amp; Document Distance (1 Feb 2011)<br />
+    <a href="lectures/lec01.pdf">notes</a> |
+    <a href="lectures/lec01_code.tar.gz">code</a> |
+    <a href="lectures/lec01_data.tar.gz">data</a> |
+    <a href="rec/rec01.pdf">recitation notes</a> |
+    readings: 1, 3, D.1
+  </li>
+
+  <li>
+    <span class="staffname">Lecture 2</span> &ndash; Peak Finding (3 Feb 2011)<br />
+    <a href="lectures/lec02.pdf">notes</a> |
+    <a href="rec/rec02.pdf">recitation notes</a> |
+    readings: 4.1, 4.3, D.1
+  </li>
+</ul>
+
+<div class="header">Unit 2: Binary Search Trees</div>
+
+<ul class="stafflist">
+  <li>
+    <span class="staffname">Lecture 3</span> &ndash; Binary Search Trees (8 Feb 2011)<br />
+    <a href="lectures/lec03.pdf">notes</a> |
+    <a href="rec/rec03.pdf">recitation notes</a> |
+    readings: 10.4, 12.1, 12.2, 12.3
+  </li>
+  <li>
+    <span class="staffname">Lecture 4</span> &ndash; AVL Trees (10 Feb 2011)<br />
+    <a href="lectures/lec04.pdf">notes</a> |
+    <a href="http://6.006.scripts.mit.edu/~6.006/spring08/wiki/index.php?title=Binary_Search_Trees">code</a> |
+    <a href="rec/rec04.pdf">recitation notes</a> |
+    readings: 13.2, 14
+  </li>
+
+</ul>
+
+<div class="header">Unit 3: Hashing</div>
+
+<ul class="stafflist">
+  <li>
+    <span class="staffname">Lecture 5</span> &ndash; Hashing I (15 Feb 2011)<br />
+    <a href="lectures/lec05.pdf">notes</a> |
+    <a href="rec/rec05.pdf">recitation notes</a> |
+    readings: 11
+  </li>
+  <li>
+    <span class="staffname">Lecture 6</span> &ndash; Hashing II (17 Feb 2011)<br />
+    <a href="lectures/lec06.pdf">notes</a> |
+    <a href="rec/rec06.pdf">recitation notes</a> |
+    readings: 11
+  </li>
+  <li>
+    <span class="staffname">Lecture 7</span> &ndash; Hashing III (24 Feb 2011)<br />
+    <a href="lectures/lec07.pdf">notes</a> |
+    <a href="rec/rec07.pdf">recitation notes</a> |
+    readings: 11
+  </li>
+</ul>
+
+<div class="header">Unit 4: Sorting</div>
+
+<ul class="stafflist"> 
+  <li>
+    <span class="staffname">Lecture 8</span> &ndash; Sorting I (1 Mar 2011)<br />
+    <a href="lectures/lec08.pdf">notes</a> |
+    <a href="rec/rec08.pdf">recitation notes</a> |
+    readings: 1.2, 2.1-2.3, 4.3-4.6
+  </li>
+  <li>
+    <span class="staffname">Lecture 9</span> &ndash; Sorting II (3 Mar 2011)<br />
+    <a href="lectures/lec09.pdf">notes</a> |
+    <a href="rec/rec09.pdf">recitation notes</a> | 
+    readings 6.1-6.4
+  </li>
+  <li>
+    <span class="staffname">Lecture 10</span> &ndash; Sorting III (8 Mar 2011)<br />
+    <a href="lectures/lec10.pdf">notes</a> |
+    no recitation |
+    readings 8.1-8.3
+  </li>
+</ul>
+
+<div class="header">Unit 5: Graphs and Search</div>
+
+<ul class="stafflist">
+  <li>
+    <span class="staffname">Lecture 11</span> &ndash; Searching I (10 Mar 2011)<br />
+    <a href="lectures/lec11.pdf">notes</a> |
+    <a href="rec/rec11.pdf">recitation notes</a> |
+    readings: 22.1-22.3, B.4
+  </li>
+  <li>
+    <span class="staffname">Lecture 12</span> &ndash; Searching II (15 Mar 2011)<br />
+    <a href="lectures/lec12.pdf">notes</a> |
+    <a href="rec/rec12.pdf">recitation notes</a>  |
+    readings: 22.2-22.3
+  </li>
+  <li>
+    <span class="staffname">Lecture 13</span> &ndash; Searching III (18 Mar 2011)<br />
+    <a href="lectures/lec13.pdf">notes</a> |
+    <a href="rec/rec13.pdf">recitation notes</a> |
+    readings: 22.4-22.5
+  </li>
+</ul>
+
+<div class="header">Unit 6: Shortest Paths</div>
+
+<ul class="stafflist">
+  <li>
+    <span class="staffname">Lecture 14</span> &ndash; Shortest Paths I: Intro (29 Mar 2011)<br />
+    <a href="lectures/lec14.pdf">notes</a> |
+    <a href="rec/rec14.pdf">recitation notes</a> |
+    readings: 24.0
+  </li>
+
+  <li>
+    <span class="staffname">Lecture 15</span> &ndash; Shortest Paths II: Bellman-Ford (31 Mar 2011)<br />
+    <a href="lectures/lec15.pdf">notes</a> |
+    <a href="rec/rec15.pdf">recitation notes</a> |
+    readings: 24.1-24.2
+  </li>
+
+  <li>
+    <span class="staffname">Lecture 16</span> &ndash; Shortest Paths III: Dijkstra (5 Apr 2011)<br />
+    <a href="lectures/lec16.pdf">notes</a> |
+    <a href="rec/rec16.pdf"> recitation notes</a> |
+    readings: 24.3
+  </li>
+
+  <li>
+    <span class="staffname">Lecture 17</span> &ndash; Shortest Paths IV: Applications (7 Apr 2011)<br />
+    <a href="lectures/lec17.pdf">notes</a> |
+    <a href="rec/rec17.pdf">recitation notes</a> |
+    readings: 24.4
+  </li>
+</ul>
+
+<div class="header">Unit 7: Dynamic Programming</div>
+
+<ul class="stafflist">
+    <li>
+      <span class="staffname">Lecture 18</span> &ndash; Dynamic Programming I: Fibonacci, Crazy Eights, sequence alignment (12 Apr 2011)<br />
+      <a href="lectures/lec18.pdf">notes</a> |
+      <a href="lectures/lec18-extra.pdf">substring matching</a> |
+      no recitation |
+      readings: 15.3-15.4
+    </li>
+
+    <li>
+      <span class="staffname">Lecture 19</span> &ndash; Dynamic Programming II: more sequence alignment, all-pairs shortest paths (14 Apr 2011)<br />
+      <a href="lectures/lec19.pdf">notes</a> |
+      <a href="rec/rec19.pdf">recitation notes</a> |
+      readings: 15.3-15.4
+    </li>
+
+    <li>
+      <span class="staffname">Lecture 20</span> &ndash; Dynamic Programming III: guessing, parenthesization, knapsack, Tetris training (21 Apr 2011)<br />
+      <a href="lectures/lec20.pdf">notes</a> |
+      <!--<a href="rec/rec20.pdf">recitation notes</a> |-->
+      readings: 15.2-15.3
+    </li>
+
+    <li>
+      <span class="staffname">Lecture 21</span> &ndash; Dynamic Programming IV: piano fingering, platform video games, structural DP, vertex cover, widget layout (26 Apr 2011)<br />
+      <a href="lectures/lec21.pdf">notes</a> |
+      <a href="rec/rec21.pdf">recitation notes</a> |
+      readings: 15.3
+    </li>
+</ul>
+
+<div class="header">Unit 8: Numbers Pictures (NP)</div>
+
+<ul class="stafflist">
+    <li>
+      <span class="staffname">Lecture 22</span> &ndash; Numerics I (28 Apr 2011)<br />
+      <a href="lectures/lec22.pdf">notes</a> |
+      <a href="rec/rec22.pdf">recitation notes</a> |
+      readings: &ndash;
+    </li>
+
+    <li>
+      <span class="staffname">Lecture 23</span> &ndash; Numerics II (3 May 2011)<br />
+      <a href="lectures/lec23.pdf">notes</a> |
+      <a href="rec/rec23.pdf">recitation notes</a> |
+      readings: &ndash;
+    </li>
+
+    <li>
+      <span class="staffname">Lecture 24</span> &ndash; Geometry (5 May 2011)<br />
+      <a href="lectures/lec24.pdf">notes</a> |
+      <a href="rec/rec24.pdf">recitation notes</a> |
+      readings: 33.1-33.3, 33.4
+    </li>
+
+    <li>
+      <span class="staffname">Lecture 25</span> &ndash; Reductions and Complexity (10 May 2011)<br />
+      <a href="lectures/lec25.pdf">notes</a> |
+      <!--<a href="rec/rec25.pdf">recitation notes</a> |-->
+      readings: 34
+    </li>
+</ul>
+
+<div class="header">Unit 9: Beyond</div>
+
+<ul class="stafflist">
+    <li>
+      <span class="staffname">Lecture 26</span> &ndash; Beyond 6.006 (12 May 2011)<br />
+      <a href="lectures/lec26.pdf">notes</a> |
+      readings: &ndash;
+    </li>
+</ul>
+
+<p>Readings refer to chapters and/or sections of
+<A HREF="http://mitpress.mit.edu/algorithms/">Introduction to Algorithms, 3rd Edition</A>.
+See the
+<A HREF="http://mitpress.mit.edu/catalog/item/default.asp?ttype=2&amp;tid=11866&amp;mode=toc">table of contents</A>.
+
+</body>
+
+<!-- Mirrored from courses.csail.mit.edu/6.006/spring11/notes.shtml by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 13 Aug 2017 12:58:21 GMT -->
+</html>
+
+
